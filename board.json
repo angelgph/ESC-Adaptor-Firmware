@@ -1,0 +1,35 @@
+{
+    "title": "boards info",
+    "boards": [
+        {
+            "name": "ESC-Adaptor",
+            "version": "V01",
+            "io": {
+                "PRINT": "PA3",
+                "ADC-IN": "PA7/T1CH4/AIN4",
+                "SIG-OUT": "PA5/T1CH1",
+                "START-KEY#": "PA0",
+                "LED": "PA1/T1CH2",
+                "188-1": "PB1",
+                "188-2": "PB2",
+                "188-3": "PB3",
+                "188-4": "PB4",
+                "188-5": "PB5",
+                "exIn": "PB0",
+                "cfg-forcerun": "PA6",
+                "cfg-usekey": "PC1",
+                "cfg-reserved": "PB7"
+            }
+        },
+        {
+            "name": "PWM",
+            "version": "V01",
+            "io": {
+                "PRINT": "PB4",
+                "ADC-HWV": "PB0/ADC_CH7",
+                "ADC-USER": "PB1/ADC_CH0",
+                "PWM": "PB7/TIM14_CH1"
+            }
+        }
+    ]
+}

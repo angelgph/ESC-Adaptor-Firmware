@@ -1,0 +1,4 @@
+.clangd
+out/
+build/
+_tmp
